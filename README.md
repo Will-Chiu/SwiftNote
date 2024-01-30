@@ -719,6 +719,7 @@ print(String(bitPattern, radix: 2))
 <br>
 
 Using 2's Complement method, the number of positive integer allowed to be stored inside data byte is less than that of negative integer.
+
 ![2's Complement](./assets/images/2complement.png "2's Complement")
 
 <br>
