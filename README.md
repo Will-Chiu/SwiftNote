@@ -1,6 +1,6 @@
 # ***Swift Note***
 
-## Table of Content
+## ***Table of Content***
 
 |[self vs Self](#self)|[Enum](#enum)|[Escape Char](#EscapeChar) |
 |:-:|:-:|:-:|
@@ -13,7 +13,7 @@
 
 <br>
 
-## _**self vs Self**_ {#self}
+## ***self vs Self*** {#self}
 Self is Type, while self is Instance.
 ```Swift
 extension BinaryInteger {
