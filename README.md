@@ -98,7 +98,6 @@ print(Compass.allCases)
 | \\" | double quotation mark |
 | \\' | single quotation mark |
 | \u{n} | Unicode scalar value, where n is a 1 – 8 digit hexadecimal number |
-|||
 
 <br>
 
@@ -134,7 +133,6 @@ print(dateFormatter.string(from: date))
 | dd.MM.yy | 12.09.18 |
 | HH:mm:ss.SSS | 10:41:02.112 |
 | HH:mm a | 01:23 am |
-|||
 
 <br>
 
@@ -190,7 +188,6 @@ print(formatter.string(from: number))
 | .scientific | 1.23456789E3 |
 | .spellOut | one thousand two hundred thirty-four point five six seven eight nine |
 | .ordinal | 1,235th |
-|||
 
 [Apple Locale IDs](https://developer.apple.com/library/archive/documentation/MacOSX/Conceptual/BPInternational/LanguageandLocaleIDs/LanguageandLocaleIDs.html)
 
