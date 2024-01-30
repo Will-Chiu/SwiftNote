@@ -87,6 +87,7 @@ print(Compass.allCases)
  <br>
 
 ## ***Escape Character*** {#EscapeChar}
+
 | String | Meaning |
 |---|---|
 | \0 | null character|
@@ -437,6 +438,7 @@ func checkInt(_ num: Int) {
 <br>
 
 ## ***Control Transfer*** {#ControlTransfer}
+
 |Statement|Condition|Description|
 |---|---|---|
 |**continue**|for-loop|stop current and do next iteration|
@@ -450,6 +452,7 @@ func checkInt(_ num: Int) {
 ## ***Higher Order Function*** {#HigherOrderFunction}
 
 ### ***TLDR***
+
 |Function|Description|
 |---|---|
 |[.map](#map)|Taking an operation to each element of an array, and returning an transformed array|
@@ -678,6 +681,7 @@ Taking 2's complement onto an integer:
 3. Adding 1 onto the flipped number
 
 Example: Taking 2's complement for 5.
+
 |Step|8-bit representation|
 |:-:|:-:|
 |1.|00000101|
@@ -702,6 +706,7 @@ Using 2's Complement method, the number of positive integer allowed to be stored
 <br>
 
 ## ***Bitwise Operation*** {#BitwiseOperation}
+
 |p|q|p & q (AND)|p \| q (OR)|p ^ q (XOR)|
 |---|---|:-:|:-:|:-:|
 |**0**|**0**|0|0|0|
@@ -715,6 +720,7 @@ let q: Int8 = 14    // 0000 1110
 ```
 
 ### AND
+
 |(AND)|Int8|Value|
 |:-:|:-:|:-:|
 |p|0010 0101|37|
@@ -727,6 +733,7 @@ print(p&q)
 > 100
 
 ### OR
+
 |(OR)|Int8|Value|
 |:-:|:-:|:-:|
 |p|0010 0101|37|
@@ -739,6 +746,7 @@ print(p|q)
 > 47
 
 ### XOR
+
 |(XOR)|Int8|Value|
 |:-:|:-:|:-:|
 |p|0010 0101|37|
@@ -751,6 +759,7 @@ print(p|q)
 > 43
 
 ### NOT
+
 |(NOT)|Int8|Value|
 |:-:|:-:|:-:|
 |x|0011 0010|50|
@@ -763,6 +772,7 @@ print(~x)
 > -51
 
 ### Right Shift
+
 |(Right)|Int8|Value|
 |:-:|:-:|:-:|
 |x|0011 0010|50|
@@ -775,6 +785,7 @@ print(x >> 2)   // Shift the bits to R.H.S
 > 12
 
 ### Left Shift
+
 |(Left)|Int8|Value|
 |:-:|:-:|:-:|
 |x|0011 0010|50|
