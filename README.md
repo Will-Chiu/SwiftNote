@@ -41,7 +41,6 @@
 [Bitwise Operation](#BitwiseOperation)
 
 <br>
-___
 
 ## _**self vs Self**_ {#self}
 Self is Type, while self is Instance.
