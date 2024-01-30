@@ -1,7 +1,5 @@
 title: Swift Note
 description: Simple Swift code reference
-show_downloads: false
-google_analytics:
 theme: jekyll-theme-cayman
 author: Will Chiu
 remote_theme: pages-themes/cayman@v0.2.0
