@@ -2,45 +2,14 @@
 
 ## Table of Content
 
-[self vs Self](#self)
-
-[Enum](#enum)
-
-[Escape Char](#EscapeChar) 
-
-[Singleton](#Singleton)
-
-[Date Formatter](#DateFormatter)
-
-[String Format](#StringFormat)
-
-[Number Formatter](#NumberFormatter)
-
-[Error Handling](#ErrorHandling)
-
-[Delay Method](#DelayMethod)
-
-[Access Control](#AccessControl)
-
-[Lazy vs Computed Property](#LazyComputed)
-
-[Read-Only Property](#ReadOnly)
-
-[Substring](#Substring)
-
-[Range Expression](#RangeExpression)
-
-[Control Transfer](#ControlTransfer)
-
-[Higher Order Function](#HigherOrderFunction)
-
-[Where Clause](#whereClause)
-
-[Numeric Literal](#NumericLiteral)
-
-[2's Complement](#2Complement)
-
-[Bitwise Operation](#BitwiseOperation)
+|[self vs Self](#self)|[Enum](#enum)|[Escape Char](#EscapeChar) |
+|:-:|:-:|:-:|
+|**[Singleton](#Singleton)**|**[Date Formatter](#DateFormatter)**|**[String Format](#StringFormat)**|
+|**[Number Formatter](#NumberFormatter)**|**[Error Handling](#ErrorHandling)**|**[Delay Method](#DelayMethod)**|
+|**[Access Control](#AccessControl)**|**[Lazy vs Computed Property](#LazyComputed)**|**[Read-Only Property](#ReadOnly)**|
+|**[Substring](#Substring)**|**[Range Expression](#RangeExpression)**|**[Control Transfer](#ControlTransfer)**|
+|**[Higher Order Function](#HigherOrderFunction)**|**[Where Clause](#whereClause)**|**[Numeric Literal](#NumericLiteral)**|
+|**[2's Complement](#2Complement)**|**[Bitwise Operation](#BitwiseOperation)**||
 
 <br>
 
