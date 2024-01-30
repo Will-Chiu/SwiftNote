@@ -1,6 +1,6 @@
 title: Swift Note
 author: Will Chiu
 description: Simple Swift code reference
-show_downloads: true
+# show_downloads: true
 google_analytics:
 theme: jekyll-theme-cayman
