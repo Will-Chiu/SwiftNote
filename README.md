@@ -674,7 +674,7 @@ Example: Taking 2's complement for 5.
 |1.|00000101|
 |2.|11111010|
 |3.|11111011|
-
+<br>
 
 ```Swift
 // To show the 2's complement by using bitPattern
@@ -702,6 +702,8 @@ Using 2's Complement method, the number of positive integer allowed to be stored
 |**1**|**0**|0|1|1|
 |**1**|**1**|1|1|0|
 
+<br>
+
 ```Swift
 let p: Int8 = 37    // 0010 0101
 let q: Int8 = 14    // 0000 1110
@@ -714,6 +716,8 @@ let q: Int8 = 14    // 0000 1110
 |p|0010 0101|37|
 |q|0000 1110|14|
 |p&q|0000 0100|4|
+
+<br>
 
 ```Swift
 print(p&q)
@@ -728,6 +732,8 @@ print(p&q)
 |q|0000 1110|14|
 |p\|q|0010 1111|47|
 
+<br>
+
 ```Swift
 print(p|q)
 ```
@@ -741,6 +747,8 @@ print(p|q)
 |q|0000 1110|14|
 |p^q|0010 1011|43|
 
+<br>
+
 ```Swift
 print(p|q)
 ```
@@ -752,6 +760,8 @@ print(p|q)
 |:-:|:-:|:-:|
 |x|0011 0010|50|
 |~x|1100 1101|-51|
+
+<br>
 
 ```Swift
 let x: Int8 = 50
@@ -766,6 +776,8 @@ print(~x)
 |x|0011 0010|50|
 |x >> 2|0000 1100|12|
 
+<br>
+
 ```Swift
 let x: Int8 = 50
 print(x >> 2)   // Shift the bits to R.H.S
@@ -778,6 +790,8 @@ print(x >> 2)   // Shift the bits to R.H.S
 |:-:|:-:|:-:|
 |x|0011 0010|50|
 |x << 2|1100 1000|56|
+
+<br>
 
 ```Swift
 let x: Int8 = 50
