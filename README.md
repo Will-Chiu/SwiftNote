@@ -674,6 +674,7 @@ Example: Taking 2's complement for 5.
 |1.|00000101|
 |2.|11111010|
 |3.|11111011|
+
 <br>
 
 ```Swift
