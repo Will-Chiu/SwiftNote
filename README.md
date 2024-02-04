@@ -9,7 +9,7 @@
 |**[Access Control](#AccessControl)**|**[Lazy vs Computed Property](#LazyComputed)**|**[Read-Only Property](#ReadOnly)**|
 |**[Substring](#Substring)**|**[Range Expression](#RangeExpression)**|**[Control Transfer](#ControlTransfer)**|
 |**[Higher Order Function](#HigherOrderFunction)**|**[Where Clause](#whereClause)**|**[Numeric Literal](#NumericLiteral)**|
-|**[2's Complement](#2Complement)**|**[Bitwise Operation](#BitwiseOperation)**||
+|**[2's Complement](#TwoComplement)**|**[Bitwise Operation](#BitwiseOperation)**||
 
 <br>
 
@@ -661,7 +661,7 @@ let hexExponent = 0x25p2
 ```
 <br>
 
-## ***2's Complement*** {#2Complement}
+## ***2's Complement*** {#TwoComplement}
 
 Taking 2's complement onto an integer:
 1. Converting the integer into binary number
