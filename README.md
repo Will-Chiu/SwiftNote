@@ -662,6 +662,7 @@ let hexExponent = 0x25p2
 <br>
 
 ## ***2's Complement*** {#2Complement}
+
 Taking 2's complement onto an integer:
 1. Converting the integer into binary number
 2. Flipping each of bit inside the binary number 
