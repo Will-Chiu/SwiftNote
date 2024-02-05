@@ -1,6 +1,6 @@
 # ***Swift Note***
 
-## ***Table of Content***
+## ***Table of Content*** {#TOC}
 
 |[self vs Self](#self)|[Enum](#enum)|[Escape Char](#EscapeChar) |
 |:-:|:-:|:-:|
@@ -20,6 +20,8 @@ extension BinaryInteger {
     func squared() -> Self {
 }
 ```
+
+<small>[Back To Top](#TOC)</small>
  <br>
 
 ## ***Enum*** {#enum}
@@ -74,7 +76,8 @@ print(Compass.allCases)
 >`90`\
 >`[North, East, South, West]`
 
- <br>
+<small>[Back To Top](#TOC)</small>
+<br>
 
 ## ***Escape Character*** {#EscapeChar}
 
@@ -89,6 +92,7 @@ print(Compass.allCases)
 | \\' | single quotation mark |
 | \u{n} | Unicode scalar value, where n is a 1 – 8 digit hexadecimal number |
 
+<small>[Back To Top](#TOC)</small>
 <br>
 
 ## ***Singleton*** {#Singleton}
@@ -99,6 +103,7 @@ class TheOnlyOneObject {
 }
 ```
 
+<small>[Back To Top](#TOC)</small>
 <br>
 
 ## ***Date Formatter*** {#DateFormatter}
@@ -124,6 +129,7 @@ print(dateFormatter.string(from: date))
 | HH:mm:ss.SSS | 10:41:02.112 |
 | HH:mm a | 01:23 am |
 
+<small>[Back To Top](#TOC)</small>
 <br>
 
 ## ***String Format*** {#StringFormat}
@@ -157,6 +163,7 @@ print((String(format: "The largest number in double-precision is about %e", max)
 ```
 > `The largest number in double-precision is about 1.797693e+308.`
 
+<small>[Back To Top](#TOC)</small>
 <br>
 
 ## ***Number Formatter*** {#NumberFormatter}
@@ -181,6 +188,7 @@ print(formatter.string(from: number))
 
 [Apple Locale IDs](https://developer.apple.com/library/archive/documentation/MacOSX/Conceptual/BPInternational/LanguageandLocaleIDs/LanguageandLocaleIDs.html)
 
+<small>[Back To Top](#TOC)</small>
 <br>
 
 ## ***Error Handling*** {#ErrorHandling}
@@ -249,6 +257,7 @@ tryAdminLogin(username: "admin", with: "password")
 ```
 > `Login successful.`
 
+<small>[Back To Top](#TOC)</small>
 <br>
 
 ## ***Delay Method*** {#DelayMethod}
@@ -284,6 +293,7 @@ Timer method can be cancelled by timer invalidate method. <br>
 DispatchQueue is the easier way to manage the block to different threads. <br>
 Sleep method may cease the caller thread, which is commonly the main thread.
 
+<small>[Back To Top](#TOC)</small>
 <br>
 
 ## ***Access Control*** {#AccessControl}
@@ -297,6 +307,9 @@ Sleep method may cease the caller thread, which is commonly the main thread.
 |**private**|Entities can only be read or written by ***same declared scope*** or extension in the same code file|
 
 ![Access Control](./assets/images/AccessControl.jpg "Access Control")
+
+<small>[Back To Top](#TOC)</small>
+<br>
 
 ## ***Lazy vs Computed Property*** {#LazyComputed}
 ```Swift
@@ -338,6 +351,7 @@ circle.computedArea: 78.53981633974483
 
 Lazy property will be initialised and calculated once when the object (holder) is created. While the computed property will be calculated everytime when it is called.
 
+<small>[Back To Top](#TOC)</small>
 <br>
 
 ## ***Read-Only Property*** {#ReadOnly}
@@ -350,6 +364,7 @@ class Lady {
 }
 ```
 
+<small>[Back To Top](#TOC)</small>
 <br>
 
 ## ***Substring*** {#Substring}
@@ -405,6 +420,7 @@ print(pappy)
 ```
 > Pappy World
 
+<small>[Back To Top](#TOC)</small>
 <br>
 
 ## ***Range Expression*** {#RangeExpression}
@@ -422,6 +438,7 @@ func checkInt(_ num: Int) {
 }
 ```
 
+<small>[Back To Top](#TOC)</small>
 <br>
 
 ## ***Control Transfer*** {#ControlTransfer}
@@ -434,6 +451,7 @@ func checkInt(_ num: Int) {
 |**return**|function|exit current function and return to calling function|
 |**throw**|function|stop current function with error, and propagate the error to enclosing scope until it is caught|
 
+<small>[Back To Top](#TOC)</small>
 <br>
 
 ## ***Higher Order Function*** {#HigherOrderFunction}
@@ -539,6 +557,7 @@ vowelChecker("Apple")
 ```
 > There are 2 vowels inside the word, Apple
 
+<small>[Back To Top](#TOC)</small>
 <br>
 
 ## ***Where Clause*** {#whereClause}
@@ -628,6 +647,7 @@ do {
 ```
 > URL Not Found
 
+<small>[Back To Top](#TOC)</small>
 <br>
 
 ## ***Numeric Literal*** {#NumericLiteral}
@@ -659,6 +679,8 @@ let decimalExponent = 37e2
 let hexExponent = 0x25p2
 // 0x25 x 2^2 = 0x94 (148 in decimal)
 ```
+
+<small>[Back To Top](#TOC)</small>
 <br>
 
 ## ***2's Complement*** {#TwoComplement}
@@ -693,6 +715,7 @@ Using 2's Complement method, the number of positive integer allowed to be stored
 
 ![2's Complement](./assets/images/2complement.png "2's Complement")
 
+<small>[Back To Top](#TOC)</small>
 <br>
 
 ## ***Bitwise Operation*** {#BitwiseOperation}
